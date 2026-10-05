@@ -39,7 +39,7 @@ $resultado = $conexao->query($sql);
             <li>R$ <?php echo $brinquedo["preco"]; ?></li>
             <li><?php echo $brinquedo["quantidade"]; ?></li>
             <li>
-                <a href="public/editar.php?id=<?php echo $brinquedo["id"]; ?>">Editar</a>
+                <a href="public/atualizar.php?id=<?php echo $brinquedo["id"]; ?>">Editar</a>
                 <a href="public/excluir.php?id=<?php echo $brinquedo["id"]; ?>">Excluir</a>
             </li>
         </ul>
